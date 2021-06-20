@@ -10,5 +10,6 @@ import (
 func main() {
 
 	s := "a"
+	//变量在内存中的地址是：  0xc00008e1e0
 	fmt.Println("变量在内存中的地址是： ", &s)
 }
