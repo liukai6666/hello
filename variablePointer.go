@@ -25,6 +25,9 @@ func main() {
 	showMemoryAddress(i)
 	//传址
 	showMemoryAddressParameterPointer(&i)
+
+	//在传址函数内部，已将该地址的值改为5
+	fmt.Println(i)
 }
 
 func showMemoryAddress(x int) {
@@ -38,5 +41,9 @@ func showMemoryAddressParameterPointer(x *int) {
 	//参数接收的就是地址、此时访问x就是访问地址、不需要再加&
 	//transfer pointer, x address is : 0xc0000b2008
 	fmt.Println("transfer pointer, x address is :", x)
+	fmt.Println("transfer pointer, x value is :", *x)
+
+	//将指针对应的值，改为5
+	*x = 5
 	return
 }
