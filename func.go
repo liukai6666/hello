@@ -103,6 +103,9 @@ func factorial(num int, frequency int) (result int) {
 	return
 }
 
+/**
+ *	递归函数2
+ */
 func feedMe(portion int, eaten int) int {
 	eaten = portion + eaten
 	if eaten > 5 {
