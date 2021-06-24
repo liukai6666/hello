@@ -118,5 +118,7 @@ func main() {
 	//	./structural.go:118:2: invalid indirect of cpAmAddress.Name (type string)
 	//	*cpAmAddress.Name = "英雄本色3"
 	//	fmt.Printf("am is %+v", am)
+	cpAmAddress.Name = "英雄本色3"
+	fmt.Printf("am is %+v\n", am)
 
 }
