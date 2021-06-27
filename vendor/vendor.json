@@ -1,0 +1,13 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "tamKcOZfQ8E90Wg7/5saCnmFS6g=",
+			"path": "github.com/golang/example/stringutil",
+			"revision": "09c3a5e06b5dbcbe35b7c0861f91088f47c02ac4",
+			"revisionTime": "2021-04-06T13:43:53Z"
+		}
+	],
+	"rootPath": "github.com/liukai6666/hello"
+}
