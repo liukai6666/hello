@@ -35,6 +35,7 @@ func TestCtoF(t *testing.T) {
 		}
 	}
 }
+testPerformance
 
 func TestFtoC(t *testing.T) {
 	for _, tt := range FtoCTests {
